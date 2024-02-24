@@ -1,7 +1,21 @@
 @import url("https://fonts.googleapis.com/css?family=Sacramento");
 body {
-    background-color: #e75db9;
-  }
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden; /* Che mọi phần thừa bên ngoài màn hình */
+    background-color: #141414;
+}
+
+.fullscreen-image {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover; /* Đảm bảo bức ảnh che kín màn hình */
+}
+  
   
   h1 {
     position: fixed;
